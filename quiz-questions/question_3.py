@@ -13,4 +13,10 @@ def remove_Es(a_string):
     remove_Es('abc')      # 'abc'
     """
     # Write your code here
-    pass
+    for char in a_string:
+        new_string = ''
+        if char == 'e' or char == 'E':
+            newstring = a_string.replace('E', "") or a_string.replace('e', "")
+        return new_string
+            
+            
