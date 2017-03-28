@@ -15,8 +15,10 @@ def remove_Es(a_string):
     # Write your code here
     for char in a_string:
         new_string = ''
-        if char == 'e' or char == 'E':
-            newstring = a_string.replace('E', "") or a_string.replace('e', "")
-        return new_string
+        if char == 'e'
+            newstring = a_string.replace('e', "")
+        elif char == 'E':
+            newstring = a_string.replace('E', "") 
+    return new_string
             
             
